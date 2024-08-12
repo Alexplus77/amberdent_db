@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { FormUploadFile } from "./components/FormUploadFile/FormUploadFile";
+import { TableAppointments } from "./components/TableAppointments/TableAppointments";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className={"app-wrapper"}>
+        <h1>Загрузка файла csv в базу данных MONGO DB</h1>
+        <FormUploadFile />
+        <TableAppointments />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { UploadOutlined } from "@ant-design/icons";
-import { Button, message, Upload } from "antd";
+import { Button, Upload } from "antd";
 import axios from "axios";
 export const FormUploadFile = () => {
   const [file, setFile] = useState(null);

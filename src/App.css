@@ -16,19 +16,3 @@ min-height: 980px;
   width: 1300px;
   height: auto;
 }
-.tableList{
-  color: black;
-  padding-top: 20px;
-}
-
-.tableStyle{
-  background-color: rgba(0, 73, 147, 0.8);
-  opacity: 0.8;
-}
-.rowTableStyle{
-  color: azure;
-  background-color: rgba(0, 43, 77, 0.79);
-}
-.rowTableStyle:hover{
-  color: black;
-}

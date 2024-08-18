@@ -27,4 +27,4 @@ mongoose
       console.log(`Server and mongoDB started on port: ${PORT}`),
     ),
   )
-  .catch((e) => console.log(e));
+  .catch((e) => console.log("Ошибка подключения к базе MONGO DB:", e));
